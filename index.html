@@ -21,29 +21,34 @@
           <li class="nav-item">
             <a class="nav-link activo" aria-current="page" href="#">Actividad 8</a>
           </li>
+          <div id="tema">
+            <div class="capas" id="capa1" title="dark" onclick="dark()"></div>
+            <div class="capas" id="capa2" title="light" ></div>
+            <div class="capas" id="capa3" title="defaulte" ></div>
+        </div>
         </ul>
       </section>
     </nav>
   </header>
   <section id="act8">
-
+    <h1>Evento: </h1> <p id="evento"></p> <br>
       <section id="centro">
         <div class="category">
-          <h2 onclick="toggleSection('section-1')">Categoría 1</h2>
+          <h2 onclick="activarSeccion('section-1')">Categoría 1</h2>
           <div class="section" id="section-1">
             <p>Este es el texto para la categoría 1.</p>
           </div>
         </div>
       
         <div class="category">
-          <h2 onclick="toggleSection('section-2')">Categoría 2</h2>
+          <h2 onclick="activarSeccion('section-2')">Categoría 2</h2>
           <div class="section" id="section-2">
             <p>Este es el texto para la categoría 2.</p>
           </div>
         </div>
       
         <div class="category">
-          <h2 onclick="toggleSection('section-3')">Categoría 3</h2>
+          <h2 onclick="activarSeccion('section-3')">Categoría 3</h2>
           <div class="section" id="section-3">
             <p>Este es el texto para la categoría 3.</p>
           </div>

@@ -22,6 +22,38 @@ header{
     background-color: transparent;
     z-index: 10;
 }
+
+#tema{
+  position: absolute;
+top: 0px;
+right: 0px;
+width: 120px;
+height: 30px;
+background-color: #07cd533e;
+}
+.capas{
+  width: 20px;
+height: 20px;
+border-radius: 50%;
+border: 1px solid #d0f4ff;
+margin-top: 4px;
+margin-left: 8px;
+display: inline-block;
+}
+#capa1{
+background-color: #0a2730;
+}
+#capa2{
+  background-color: #35ffae;
+  }
+
+#capa3{
+background-color: #d4f5ff;
+}
+.ligero{
+  color: #0a2730;
+  font-family: 'Times New Roman', Times, serif;    
+}
 .row{
     width: 100%;
   }
@@ -52,7 +84,11 @@ header{
     font-family: "Faustina-SemiBold";
     border-bottom: 4px solid  #1f628e;;
 }
+h1{
+  float: left;
 
+  
+}
 footer{
     background-color: #5208e5;
     text-align: center;
@@ -67,8 +103,8 @@ footer{
 	min-height:100px;
 	background-color: #62a5c2;
 	font-size:20px;
-    padding: 100px;
-}
+    padding: 80px;
+} 
 
 
 .bg-default {
@@ -76,9 +112,10 @@ footer{
   }
 #centro{
     background-color: #cfd3d3;
+    margin-top: 10px;
 }
 
-egory {
+.category {
     margin: 0 20px;
   }
   

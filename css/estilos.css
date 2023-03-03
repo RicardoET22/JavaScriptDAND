@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Faustina-SemiBold';
+    src: url('../fonts/Faustina-SemiBold.ttf') format('truetype');
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: 'Faustina-SemiBold';
+    src: url('../fonts/Faustina-SemiBold.ttf') format('truetype');
+    font-weight: 500;
+  }
+*{
+    margin:0;
+    padding: 0;
+    font-family: "Faustina", sans-serif;
+}
+header{
+    padding: 5px 5px 5px 5px;
+    position: sticky;   
+    height: 5vh;
+    
+    top: 0;
+    background-color: transparent;
+    z-index: 10;
+}
+.row{
+    width: 100%;
+  }
+#menu img{
+    width: 65px;
+    height: 62px;
+    margin-right: 20px;
+}
+
+#menu #nombre{
+    font-family:"Faustina-SemiBold";
+    color: #1f628e;
+    font-size: 28px;
+}
+#links{
+    
+    width: 50%;
+
+}
+#links a{
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+
+}
+#links li a:hover{
+   
+    font-family: "Faustina-SemiBold";
+    border-bottom: 4px solid  #1f628e;;
+}
+
+footer{
+    background-color: #5208e5;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 0px;
+}	
+
+
+#act8{
+    margin-top: 10vh;
+	min-height:100px;
+	background-color: #62a5c2;
+	font-size:20px;
+    padding: 100px;
+}
+
+
+.bg-default {
+    background-color: #d9edfaa0;
+  }
+#centro{
+    background-color: #cfd3d3;
+}
+
+egory {
+    margin: 0 20px;
+  }
+  
+  h2 {
+    cursor: pointer;
+  }
+  
+  .section {
+    display: none;
+    padding: 10px;
+    background-color: #eee;
+  }

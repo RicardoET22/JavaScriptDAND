@@ -21,13 +21,17 @@ document.body.style.backgroundColor = "#d9edfaa0"
 cabecera[0].classList.remove('dark');
 document.getElementById("evento").innerHTML = "Cambiaste al tema default";
 }
-  function activarSeccion(id) {
+  function activarSeccion(id,triangle) {
     var section = document.getElementById(id);
+    var triangle = document.getElementById(triangle);
     if (section.style.display === "block") {
       section.style.display = "none";
+      triangle.innerHTML = "▼";
     } else {
       section.style.display = "block";
+      triangle.innerHTML = "▲";
     }
     document.getElementById("evento").innerHTML = "Abriste una categoría";
+    
   }
   

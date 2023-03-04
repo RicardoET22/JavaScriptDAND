@@ -109,9 +109,13 @@ footer{
 
 .bg-default {
     background-color: #d9edfaa0;
-  }
+  } 
+#evento{
+  font-size: 28px;
+  margin-top: 7px;
+}
 #centro{
-    background-color: #cfd3d3;
+    background-color: #d9edfae7;
     margin-top: 10px;
 }
 
@@ -127,4 +131,7 @@ footer{
     display: none;
     padding: 10px;
     background-color: #eee;
+  }
+  .triangle{
+    float: left;
   }

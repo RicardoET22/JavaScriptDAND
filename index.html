@@ -34,23 +34,29 @@
     <h1>Evento: </h1> <p id="evento"></p> <br>
       <section id="centro">
         <div class="category">
-          <h2 onclick="activarSeccion('section-1')">Categoría 1</h2>
+          <p class="triangle" id="triangle-1">▼</p><h2 onclick="activarSeccion('section-1', 'triangle-1')" id="title-1">Sobre mí</h2> 
           <div class="section" id="section-1">
-            <p>Este es el texto para la categoría 1.</p>
+            <p>Soy Ricardo Espinosa. Desarrollador y artista digital. Actualmente soy estudiante de la UTL
+              y todo lo relacionado a la tecnología me interesa.
+            </p>
           </div>
         </div>
       
         <div class="category">
-          <h2 onclick="activarSeccion('section-2')">Categoría 2</h2>
+          <p class="triangle" id="triangle-2">▼</p><h2 onclick="activarSeccion('section-2', 'triangle-2')">Herramientas digitales y lenguajes</h2>
           <div class="section" id="section-2">
-            <p>Este es el texto para la categoría 2.</p>
+            <p>Desarrollo web: HTML, CSS, JS, PHP, mySQL, Laravel</p>
+            <p>Diseño: Figma, Adobe Suite, Blender </p>
+            <p>Nube: Git y GitHub, AWS, Microsoft Azure</p>
           </div>
         </div>
       
         <div class="category">
-          <h2 onclick="activarSeccion('section-3')">Categoría 3</h2>
+          <p class="triangle" id="triangle-3">▼</p><h2 onclick="activarSeccion('section-3','triangle-3')">Certificaciones</h2>
           <div class="section" id="section-3">
-            <p>Este es el texto para la categoría 3.</p>
+            <p>Google Actívate (2020) Desarrollo de apps móviles</p>
+            <p>Capacítate para el empleo (2020) Comercio digital</p>
+            <p>Siemens Industries Software (2022) Solid Edge 2019</p>
           </div>
         </div>
       </section>
